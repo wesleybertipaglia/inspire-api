@@ -10,6 +10,41 @@ router.get('/', (req, res) => {
     return res.json(quotes);
 });
 
+const paginationMiddleware = (req, res, next) => {
+    const page = parseInt(req.query.page) || 1;
+    const limit = parseInt(req.query.limit) || 10;
+
+    if (page <= 0 || limit <= 0) {
+        return res.status(400).json({ message: 'Invalid pagination parameters' });
+    }
+
+    const startIndex = (page - 1) * limit;
+    const endIndex = startIndex + limit;
+
+    req.startIndex = startIndex;
+    req.endIndex = endIndex;
+
+    next();
+};
+
+router.get('/q', paginationMiddleware, async (req, res) => {
+    const paginatedData = quotes.slice(req.startIndex, req.endIndex);
+    const totalCount = quotes.length;
+
+    const response = {
+        quotes: paginatedData,
+        pagination: {
+            total: totalCount,
+            page: parseInt(req.query.page),
+            pageSize: parseInt(req.query.limit),
+            nextPage: parseInt(req.query.page) + 1,
+            previousPage: parseInt(req.query.page) - 1
+        }
+    };
+
+    res.json(response);
+});
+
 router.get('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const quote = quotes.find((quote) => quote.id === id);
@@ -27,7 +62,7 @@ router.post('/', (req, res) => {
     const { text, author, category } = req.body;
     const newId = quotes.length + 1;
 
-    if (!text || !author) {
+    if (!text || !author || !category) {
         res.status(400).json({ error: 'Please, give the text, author and category' });
     } else {
         res.setHeader('Content-Type', 'application/json');
@@ -39,9 +74,8 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    const { text, author, category } = req.body;
-
     const quote = quotes.find(quote => quote.id === id);
+    const { text, author, category } = req.body;
 
     if (quote) {
         quote.text = text || quote.text;
@@ -55,7 +89,6 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
     const id = parseInt(req.params.id);
-
     const quoteIndex = quotes.findIndex(quote => quote.id === id);
 
     if (quoteIndex !== -1) {
