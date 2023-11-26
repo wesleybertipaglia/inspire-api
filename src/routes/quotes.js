@@ -45,6 +45,21 @@ router.get('/q', paginationMiddleware, async (req, res) => {
     res.json(response);
 });
 
+router.get('/random', (req, res) => {
+    const min = 1;
+    const max = quotes.length;
+    const id = Math.floor(Math.random() * (max - min + 1)) + min;
+    const quote = quotes.find((quote) => quote.id === id);
+
+    if (quote) {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.json(quote);
+    } else {
+        res.status(404).json({ error: 'Quote not found' });
+    }
+})
+
 router.get('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const quote = quotes.find((quote) => quote.id === id);
