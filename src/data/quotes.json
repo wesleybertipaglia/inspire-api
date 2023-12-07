@@ -1,604 +1,182 @@
-{
-  "quotes": [
-    {
-      "id": 1,
-      "text": "The only way to do great work is to love what you do.",
-      "author": "Steve Jobs",
-      "category": "Inspiration"
-    },
-    {
-      "id": 2,
-      "text": "Believe you can and you're halfway there.",
-      "author": "Theodore Roosevelt",
-      "category": "Motivation"
-    },
-    {
-      "id": 3,
-      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-      "author": "Winston Churchill",
-      "category": "Persistence"
-    },
-    {
-      "id": 4,
-      "text": "Your time is limited, don't waste it living someone else's life.",
-      "author": "Steve Jobs",
-      "category": "Life"
-    },
-    {
-      "id": 5,
-      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
-      "author": "Franklin D. Roosevelt",
-      "category": "Positivity"
-    },
-    {
-      "id": 6,
-      "text": "Don't watch the clock; do what it does. Keep going.",
-      "author": "Sam Levenson",
-      "category": "Persistence"
-    },
-    {
-      "id": 7,
-      "text": "The future belongs to those who believe in the beauty of their dreams.",
-      "author": "Eleanor Roosevelt",
-      "category": "Dreams"
-    },
-    {
-      "id": 8,
-      "text": "It's not whether you get knocked down, it's whether you get up.",
-      "author": "Vince Lombardi",
-      "category": "Resilience"
-    },
-    {
-      "id": 9,
-      "text": "The only person you are destined to become is the person you decide to be.",
-      "author": "Ralph Waldo Emerson",
-      "category": "Self-Discovery"
-    },
-    {
-      "id": 10,
-      "text": "Success usually comes to those who are too busy to be looking for it.",
-      "author": "Henry David Thoreau",
-      "category": "Success"
-    },
-    {
-      "id": 11,
-      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
-      "author": "Franklin D. Roosevelt",
-      "category": "Positivity"
-    },
-    {
-      "id": 12,
-      "text": "Success is not just about making money. It's about making a difference.",
-      "author": "Unknown",
-      "category": "Success"
-    },
-    {
-      "id": 13,
-      "text": "You are never too old to set another goal or to dream a new dream.",
-      "author": "C.S. Lewis",
-      "category": "Dreams"
-    },
-    {
-      "id": 14,
-      "text": "The only way to achieve the impossible is to believe it is possible.",
-      "author": "Charles Kingsleigh",
-      "category": "Belief"
-    },
-    {
-      "id": 15,
-      "text": "Your attitude determines your direction.",
-      "author": "Unknown",
-      "category": "Attitude"
-    },
-    {
-      "id": 16,
-      "text": "The only person you are destined to become is the person you decide to be.",
-      "author": "Ralph Waldo Emerson",
-      "category": "Self-Discovery"
-    },
-    {
-      "id": 17,
-      "text": "Opportunities don't happen. You create them.",
-      "author": "Chris Grosser",
-      "category": "Opportunity"
-    },
-    {
-      "id": 18,
-      "text": "The harder you work for something, the greater you'll feel when you achieve it.",
-      "author": "Unknown",
-      "category": "Hard Work"
-    },
-    {
-      "id": 19,
-      "text": "It's not about how bad you want it; it's about how hard you're willing to work for it.",
-      "author": "Unknown",
-      "category": "Determination"
-    },
-    {
-      "id": 20,
-      "text": "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
-      "author": "Christian D. Larson",
-      "category": "Self-Belief"
-    },
-    {
-      "id": 21,
-      "text": "The only way to predict the future is to create it.",
-      "author": "Peter Drucker",
-      "category": "Foresight"
-    },
-    {
-      "id": 22,
-      "text": "Your life does not get better by chance, it gets better by change.",
-      "author": "Jim Rohn",
-      "category": "Change"
-    },
-    {
-      "id": 23,
-      "text": "Success is stumbling from failure to failure with no loss of enthusiasm.",
-      "author": "Winston Churchill",
-      "category": "Resilience"
-    },
-    {
-      "id": 24,
-      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
-      "author": "Franklin D. Roosevelt",
-      "category": "Positivity"
-    },
-    {
-      "id": 25,
-      "text": "The future belongs to those who believe in the beauty of their dreams.",
-      "author": "Eleanor Roosevelt",
-      "category": "Dreams"
-    },
-    {
-      "id": 26,
-      "text": "Don't count the days, make the days count.",
-      "author": "Muhammad Ali",
-      "category": "Productivity"
-    },
-    {
-      "id": 27,
-      "text": "The only person you are destined to become is the person you decide to be.",
-      "author": "Ralph Waldo Emerson",
-      "category": "Self-Discovery"
-    },
-    {
-      "id": 28,
-      "text": "Your time is limited, don't waste it living someone else's life.",
-      "author": "Steve Jobs",
-      "category": "Life"
-    },
-    {
-      "id": 29,
-      "text": "Believe you can and you're halfway there.",
-      "author": "Theodore Roosevelt",
-      "category": "Motivation"
-    },
-    {
-      "id": 30,
-      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-      "author": "Winston Churchill",
-      "category": "Persistence"
-    },
-    {
-      "id": 31,
-      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
-      "author": "Franklin D. Roosevelt",
-      "category": "Positivity"
-    },
-    {
-      "id": 32,
-      "text": "Success is not just about making money. It's about making a difference.",
-      "author": "Unknown",
-      "category": "Success"
-    },
-    {
-      "id": 33,
-      "text": "You are never too old to set another goal or to dream a new dream.",
-      "author": "C.S. Lewis",
-      "category": "Dreams"
-    },
-    {
-      "id": 34,
-      "text": "The only way to achieve the impossible is to believe it is possible.",
-      "author": "Charles Kingsleigh",
-      "category": "Belief"
-    },
-    {
-      "id": 35,
-      "text": "Your attitude determines your direction.",
-      "author": "Unknown",
-      "category": "Attitude"
-    },
-    {
-      "id": 36,
-      "text": "The only person you are destined to become is the person you decide to be.",
-      "author": "Ralph Waldo Emerson",
-      "category": "Self-Discovery"
-    },
-    {
-      "id": 37,
-      "text": "Opportunities don't happen. You create them.",
-      "author": "Chris Grosser",
-      "category": "Opportunity"
-    },
-    {
-      "id": 38,
-      "text": "The harder you work for something, the greater you'll feel when you achieve it.",
-      "author": "Unknown",
-      "category": "Hard Work"
-    },
-    {
-      "id": 39,
-      "text": "It's not about how bad you want it; it's about how hard you're willing to work for it.",
-      "author": "Unknown",
-      "category": "Determination"
-    },
-    {
-      "id": 40,
-      "text": "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
-      "author": "Christian D. Larson",
-      "category": "Self-Belief"
-    },
-    {
-      "id": 41,
-      "text": "The only way to predict the future is to create it.",
-      "author": "Peter Drucker",
-      "category": "Foresight"
-    },
-    {
-      "id": 42,
-      "text": "Your life does not get better by chance, it gets better by change.",
-      "author": "Jim Rohn",
-      "category": "Change"
-    },
-    {
-      "id": 43,
-      "text": "Success is stumbling from failure to failure with no loss of enthusiasm.",
-      "author": "Winston Churchill",
-      "category": "Resilience"
-    },
-    {
-      "id": 44,
-      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
-      "author": "Franklin D. Roosevelt",
-      "category": "Positivity"
-    },
-    {
-      "id": 45,
-      "text": "The future belongs to those who believe in the beauty of their dreams.",
-      "author": "Eleanor Roosevelt",
-      "category": "Dreams"
-    },
-    {
-      "id": 46,
-      "text": "Don't count the days, make the days count.",
-      "author": "Muhammad Ali",
-      "category": "Productivity"
-    },
-    {
-      "id": 47,
-      "text": "The only person you are destined to become is the person you decide to be.",
-      "author": "Ralph Waldo Emerson",
-      "category": "Self-Discovery"
-    },
-    {
-      "id": 48,
-      "text": "Your time is limited, don't waste it living someone else's life.",
-      "author": "Steve Jobs",
-      "category": "Life"
-    },
-    {
-      "id": 49,
-      "text": "Believe you can and you're halfway there.",
-      "author": "Theodore Roosevelt",
-      "category": "Motivation"
-    },
-    {
-      "id": 50,
-      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-      "author": "Winston Churchill",
-      "category": "Persistence"
-    },
-    {
-      "id": 51,
-      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
-      "author": "Franklin D. Roosevelt",
-      "category": "Positivity"
-    },
-    {
-      "id": 52,
-      "text": "Success is not just about making money. It's about making a difference.",
-      "author": "Unknown",
-      "category": "Success"
-    },
-    {
-      "id": 53,
-      "text": "You are never too old to set another goal or to dream a new dream.",
-      "author": "C.S. Lewis",
-      "category": "Dreams"
-    },
-    {
-      "id": 54,
-      "text": "The only way to achieve the impossible is to believe it is possible.",
-      "author": "Charles Kingsleigh",
-      "category": "Belief"
-    },
-    {
-      "id": 55,
-      "text": "Your attitude determines your direction.",
-      "author": "Unknown",
-      "category": "Attitude"
-    },
-    {
-      "id": 56,
-      "text": "The only person you are destined to become is the person you decide to be.",
-      "author": "Ralph Waldo Emerson",
-      "category": "Self-Discovery"
-    },
-    {
-      "id": 57,
-      "text": "Opportunities don't happen. You create them.",
-      "author": "Chris Grosser",
-      "category": "Opportunity"
-    },
-    {
-      "id": 58,
-      "text": "The harder you work for something, the greater you'll feel when you achieve it.",
-      "author": "Unknown",
-      "category": "Hard Work"
-    },
-    {
-      "id": 59,
-      "text": "It's not about how bad you want it; it's about how hard you're willing to work for it.",
-      "author": "Unknown",
-      "category": "Determination"
-    },
-    {
-      "id": 60,
-      "text": "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
-      "author": "Christian D. Larson",
-      "category": "Self-Belief"
-    },
-    {
-      "id": 61,
-      "text": "The only way to predict the future is to create it.",
-      "author": "Peter Drucker",
-      "category": "Foresight"
-    },
-    {
-      "id": 62,
-      "text": "Your life does not get better by chance, it gets better by change.",
-      "author": "Jim Rohn",
-      "category": "Change"
-    },
-    {
-      "id": 63,
-      "text": "Success is stumbling from failure to failure with no loss of enthusiasm.",
-      "author": "Winston Churchill",
-      "category": "Resilience"
-    },
-    {
-      "id": 64,
-      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
-      "author": "Franklin D. Roosevelt",
-      "category": "Positivity"
-    },
-    {
-      "id": 65,
-      "text": "The future belongs to those who believe in the beauty of their dreams.",
-      "author": "Eleanor Roosevelt",
-      "category": "Dreams"
-    },
-    {
-      "id": 66,
-      "text": "Don't count the days, make the days count.",
-      "author": "Muhammad Ali",
-      "category": "Productivity"
-    },
-    {
-      "id": 67,
-      "text": "The only person you are destined to become is the person you decide to be.",
-      "author": "Ralph Waldo Emerson",
-      "category": "Self-Discovery"
-    },
-    {
-      "id": 68,
-      "text": "Your time is limited, don't waste it living someone else's life.",
-      "author": "Steve Jobs",
-      "category": "Life"
-    },
-    {
-      "id": 69,
-      "text": "Believe you can and you're halfway there.",
-      "author": "Theodore Roosevelt",
-      "category": "Motivation"
-    },
-    {
-      "id": 70,
-      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-      "author": "Winston Churchill",
-      "category": "Persistence"
-    },
-    {
-      "id": 71,
-      "text": "Don't watch the clock; do what it does. Keep going.",
-      "author": "Sam Levenson",
-      "category": "Persistence"
-    },
-    {
-      "id": 72,
-      "text": "Success is not about the destination, but the journey.",
-      "author": "Zig Ziglar",
-      "category": "Success"
-    },
-    {
-      "id": 73,
-      "text": "Dream big and dare to fail.",
-      "author": "Norman Vaughan",
-      "category": "Dreams"
-    },
-    {
-      "id": 74,
-      "text": "It's not whether you get knocked down, it's whether you get up.",
-      "author": "Vince Lombardi",
-      "category": "Resilience"
-    },
-    {
-      "id": 75,
-      "text": "The only way to do great work is to love what you do.",
-      "author": "Steve Jobs",
-      "category": "Passion"
-    },
-    {
-      "id": 76,
-      "text": "Your attitude, not your aptitude, will determine your altitude.",
-      "author": "Zig Ziglar",
-      "category": "Attitude"
-    },
-    {
-      "id": 77,
-      "text": "Success usually comes to those who are too busy to be looking for it.",
-      "author": "Henry David Thoreau",
-      "category": "Success"
-    },
-    {
-      "id": 78,
-      "text": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
-      "author": "Jordan Belfort",
-      "category": "Self-Belief"
-    },
-    {
-      "id": 79,
-      "text": "Believe in yourself, take on your challenges, dig deep within yourself to conquer fears. Never let anyone bring you down. You got this.",
-      "author": "Chantal Sutherland",
-      "category": "Belief"
-    },
-    {
-      "id": 80,
-      "text": "The only place where success comes before work is in the dictionary.",
-      "author": "Vidal Sassoon",
-      "category": "Hard Work"
-    },
-    {
-      "id": 81,
-      "text": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
-      "author": "Albert Schweitzer",
-      "category": "Happiness"
-    },
-    {
-      "id": 82,
-      "text": "The future depends on what you do today.",
-      "author": "Mahatma Gandhi",
-      "category": "Future"
-    },
-    {
-      "id": 83,
-      "text": "The only person you are destined to become is the person you decide to be.",
-      "author": "Ralph Waldo Emerson",
-      "category": "Destiny"
-    },
-    {
-      "id": 84,
-      "text": "Success is not in what you have, but who you are.",
-      "author": "Bo Bennett",
-      "category": "Success"
-    },
-    {
-      "id": 85,
-      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
-      "author": "Franklin D. Roosevelt",
-      "category": "Positivity"
-    },
-    {
-      "id": 86,
-      "text": "Your time is limited, don't waste it living someone else's life.",
-      "author": "Steve Jobs",
-      "category": "Life"
-    },
-    {
-      "id": 87,
-      "text": "Believe you can and you're halfway there.",
-      "author": "Theodore Roosevelt",
-      "category": "Belief"
-    },
-    {
-      "id": 88,
-      "text": "Your life does not get better by chance, it gets better by change.",
-      "author": "Jim Rohn",
-      "category": "Change"
-    },
-    {
-      "id": 89,
-      "text": "The only way to achieve the impossible is to believe it is possible.",
-      "author": "Charles Kingsleigh",
-      "category": "Possibility"
-    },
-    {
-      "id": 90,
-      "text": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
-      "author": "Roy T. Bennett",
-      "category": "Dreams"
-    },
-    {
-      "id": 91,
-      "text": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
-      "author": "Jordan Belfort",
-      "category": "Self-Belief"
-    },
-    {
-      "id": 92,
-      "text": "Believe in yourself, take on your challenges, dig deep within yourself to conquer fears. Never let anyone bring you down. You got this.",
-      "author": "Chantal Sutherland",
-      "category": "Belief"
-    },
-    {
-      "id": 93,
-      "text": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
-      "author": "Albert Schweitzer",
-      "category": "Happiness"
-    },
-    {
-      "id": 94,
-      "text": "The future depends on what you do today.",
-      "author": "Mahatma Gandhi",
-      "category": "Future"
-    },
-    {
-      "id": 95,
-      "text": "The only person you are destined to become is the person you decide to be.",
-      "author": "Ralph Waldo Emerson",
-      "category": "Destiny"
-    },
-    {
-      "id": 96,
-      "text": "Success is not in what you have, but who you are.",
-      "author": "Bo Bennett",
-      "category": "Success"
-    },
-    {
-      "id": 97,
-      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
-      "author": "Franklin D. Roosevelt",
-      "category": "Positivity"
-    },
-    {
-      "id": 98,
-      "text": "Your time is limited, don't waste it living someone else's life.",
-      "author": "Steve Jobs",
-      "category": "Life"
-    },
-    {
-      "id": 99,
-      "text": "Believe you can and you're halfway there.",
-      "author": "Theodore Roosevelt",
-      "category": "Belief"
-    },
-    {
-      "id": 100,
-      "text": "Your life does not get better by chance, it gets better by change.",
-      "author": "Jim Rohn",
-      "category": "Change"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "text": "Imagination is more important than knowledge.",
+    "authorId": 1,
+    "categoryId": 1,
+    "keywords": ["imagination", "knowledge"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 2,
+    "text": "The only way to do great work is to love what you do.",
+    "authorId": 6,
+    "categoryId": 2,
+    "keywords": ["great work", "passion"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 3,
+    "text": "Innovation distinguishes between a leader and a follower.",
+    "authorId": 9,
+    "categoryId": 3,
+    "keywords": ["innovation", "leader"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 4,
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "authorId": 16,
+    "categoryId": 4,
+    "keywords": ["future", "dreams"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 5,
+    "text": "Logic will get you from A to B. Imagination will take you everywhere.",
+    "authorId": 17,
+    "categoryId": 5,
+    "keywords": ["logic", "imagination"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 6,
+    "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "authorId": 41,
+    "categoryId": 6,
+    "keywords": ["success", "failure", "courage"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 7,
+    "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "authorId": 51,
+    "categoryId": 7,
+    "keywords": ["limit", "realization", "doubts"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 8,
+    "text": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "authorId": 52,
+    "categoryId": 8,
+    "keywords": ["genius", "inspiration", "perspiration"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 9,
+    "text": "The art of simplicity is a puzzle of complexity.",
+    "authorId": 58,
+    "categoryId": 9,
+    "keywords": ["simplicity", "complexity", "puzzle"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 10,
+    "text": "To invent, you need a good imagination and a pile of junk.",
+    "authorId": 60,
+    "categoryId": 10,
+    "keywords": ["invent", "imagination", "junk"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 11,
+    "text": "Don't watch the clock; do what it does. Keep going.",
+    "authorId": 31,
+    "categoryId": 11,
+    "keywords": ["clock", "perseverance"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 12,
+    "text": "Coding is today's literacy. It is the 21st-century skill.",
+    "authorId": 36,
+    "categoryId": 12,
+    "keywords": ["coding", "literacy", "21st-century"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 13,
+    "text": "Your time is limited, don't waste it living someone else's life.",
+    "authorId": 39,
+    "categoryId": 13,
+    "keywords": ["time", "life", "limited"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 14,
+    "text": "The best way to predict the future is to invent it.",
+    "authorId": 43,
+    "categoryId": 14,
+    "keywords": ["future", "predict", "invent"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 15,
+    "text": "Science knows no country, because knowledge belongs to humanity.",
+    "authorId": 55,
+    "categoryId": 15,
+    "keywords": ["science", "knowledge", "humanity"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 16,
+    "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "authorId": 51,
+    "categoryId": 16,
+    "keywords": ["glory", "living", "rising", "falling"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 17,
+    "text": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "authorId": 56,
+    "categoryId": 17,
+    "keywords": ["goal", "story", "achievement"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 18,
+    "text": "Life is really simple, but we insist on making it complicated.",
+    "authorId": 59,
+    "categoryId": 18,
+    "keywords": ["life", "simple", "complicated"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 19,
+    "text": "The only true wisdom is in knowing you know nothing.",
+    "authorId": 62,
+    "categoryId": 19,
+    "keywords": ["wisdom", "knowing", "nothing"],
+    "likeCount": 0,
+    "shareCount": 0
+  },
+  {
+    "id": 20,
+    "text": "Creativity is intelligence having fun.",
+    "authorId": 65,
+    "categoryId": 20,
+    "keywords": ["creativity", "intelligence", "fun"],
+    "likeCount": 0,
+    "shareCount": 0
+  }
+]

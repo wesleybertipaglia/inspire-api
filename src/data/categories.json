@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "Inspirational"
+  },
+  {
+    "id": 2,
+    "name": "Motivational"
+  },
+  {
+    "id": 3,
+    "name": "Self-Help"
+  },
+  {
+    "id": 4,
+    "name": "Philosophy"
+  },
+  {
+    "id": 5,
+    "name": "Biography"
+  },
+  {
+    "id": 6,
+    "name": "Science Fiction"
+  },
+  {
+    "id": 7,
+    "name": "Historical Fiction"
+  },
+  {
+    "id": 8,
+    "name": "Mystery"
+  },
+  {
+    "id": 9,
+    "name": "Fantasy"
+  },
+  {
+    "id": 10,
+    "name": "Romance"
+  },
+  {
+    "id": 11,
+    "name": "Thriller"
+  },
+  {
+    "id": 12,
+    "name": "Drama"
+  },
+  {
+    "id": 13,
+    "name": "Comedy"
+  },
+  {
+    "id": 14,
+    "name": "Travel"
+  },
+  {
+    "id": 15,
+    "name": "Cookbook"
+  },
+  {
+    "id": 16,
+    "name": "Poetry"
+  },
+  {
+    "id": 17,
+    "name": "History"
+  },
+  {
+    "id": 18,
+    "name": "Art and Photography"
+  },
+  {
+    "id": 19,
+    "name": "Business and Finance"
+  },
+  {
+    "id": 20,
+    "name": "Technology"
+  },
+  {
+    "id": 21,
+    "name": "Health and Wellness"
+  },
+  {
+    "id": 22,
+    "name": "Parenting"
+  },
+  {
+    "id": 23,
+    "name": "Education"
+  },
+  {
+    "id": 24,
+    "name": "Psychology"
+  },
+  {
+    "id": 25,
+    "name": "Environmental"
+  },
+  {
+    "id": 26,
+    "name": "Technology and Society"
+  },
+  {
+    "id": 27,
+    "name": "Sports and Fitness"
+  },
+  {
+    "id": 28,
+    "name": "Science and Nature"
+  },
+  {
+    "id": 29,
+    "name": "Travel and Adventure"
+  },
+  {
+    "id": 30,
+    "name": "True Crime"
+  },
+  {
+    "id": 31,
+    "name": "Humor"
+  },
+  {
+    "id": 32,
+    "name": "Spirituality"
+  },
+  {
+    "id": 33,
+    "name": "Artificial Intelligence"
+  },
+  {
+    "id": 34,
+    "name": "Economics"
+  },
+  {
+    "id": 35,
+    "name": "Futurism"
+  },
+  {
+    "id": 36,
+    "name": "Mindfulness"
+  },
+  {
+    "id": 37,
+    "name": "Fashion and Style"
+  },
+  {
+    "id": 38,
+    "name": "Social Justice"
+  },
+  {
+    "id": 39,
+    "name": "Culinary History"
+  },
+  {
+    "id": 40,
+    "name": "Space Exploration"
+  },
+  {
+    "id": 41,
+    "name": "Science Communication"
+  },
+  {
+    "id": 42,
+    "name": "Cognitive Science"
+  },
+  {
+    "id": 43,
+    "name": "Astrology"
+  },
+  {
+    "id": 44,
+    "name": "Personal Development"
+  },
+  {
+    "id": 45,
+    "name": "Digital Marketing"
+  },
+  {
+    "id": 46,
+    "name": "Urban Planning"
+  },
+  {
+    "id": 47,
+    "name": "Cybersecurity"
+  },
+  {
+    "id": 48,
+    "name": "Graphic Novels"
+  },
+  {
+    "id": 49,
+    "name": "Hobbies and Crafts"
+  },
+  {
+    "id": 50,
+    "name": "Political Science"
+  },
+  {
+    "id": 51,
+    "name": "Climate Change"
+  },
+  {
+    "id": 52,
+    "name": "Alternative Medicine"
+  },
+  {
+    "id": 53,
+    "name": "Time Management"
+  },
+  {
+    "id": 54,
+    "name": "Cultural Criticism"
+  },
+  {
+    "id": 55,
+    "name": "Science of Happiness"
+  },
+  {
+    "id": 56,
+    "name": "Eco-Fiction"
+  },
+  {
+    "id": 57,
+    "name": "Military History"
+  },
+  {
+    "id": 58,
+    "name": "DIY and Home Improvement"
+  },
+  {
+    "id": 59,
+    "name": "Sociology"
+  },
+  {
+    "id": 60,
+    "name": "Media Studies"
+  },
+  {
+    "id": 61,
+    "name": "Animal Behavior"
+  },
+  {
+    "id": 62,
+    "name": "Folklore and Mythology"
+  },
+  {
+    "id": 63,
+    "name": "Digital Art"
+  },
+  {
+    "id": 64,
+    "name": "Public Speaking"
+  },
+  {
+    "id": 65,
+    "name": "Innovation"
+  },
+  {
+    "id": 66,
+    "name": "Social Media Strategy"
+  },
+  {
+    "id": 67,
+    "name": "Philanthropy"
+  },
+  {
+    "id": 68,
+    "name": "Holistic Health"
+  },
+  {
+    "id": 69,
+    "name": "Renewable Energy"
+  },
+  {
+    "id": 70,
+    "name": "Dystopian Fiction"
+  },
+  {
+    "id": 71,
+    "name": "Gender Studies"
+  },
+  {
+    "id": 72,
+    "name": "Investing"
+  },
+  {
+    "id": 73,
+    "name": "Animation and Film Studies"
+  },
+  {
+    "id": 74,
+    "name": "Culinary Arts"
+  },
+  {
+    "id": 75,
+    "name": "Space and Time Travel"
+  },
+  {
+    "id": 76,
+    "name": "Artificial Life"
+  },
+  {
+    "id": 77,
+    "name": "Renovation and Restoration"
+  },
+  {
+    "id": 78,
+    "name": "Environmental Ethics"
+  },
+  {
+    "id": 79,
+    "name": "Social Psychology"
+  },
+  {
+    "id": 80,
+    "name": "Entrepreneurship"
+  },
+  {
+    "id": 81,
+    "name": "Medical Ethics"
+  },
+  {
+    "id": 82,
+    "name": "Ancient History"
+  },
+  {
+    "id": 83,
+    "name": "Data Science"
+  },
+  {
+    "id": 84,
+    "name": "Mind-Body Connection"
+  },
+  {
+    "id": 85,
+    "name": "Alternative Energy"
+  },
+  {
+    "id": 86,
+    "name": "Conflict Resolution"
+  },
+  {
+    "id": 87,
+    "name": "Graphic Design"
+  },
+  {
+    "id": 88,
+    "name": "Human Rights"
+  },
+  {
+    "id": 89,
+    "name": "Historical Biography"
+  },
+  {
+    "id": 90,
+    "name": "Virtual Reality"
+  },
+  {
+    "id": 91,
+    "name": "Ethical Hacking"
+  },
+  {
+    "id": 92,
+    "name": "Culinary Travel"
+  },
+  {
+    "id": 93,
+    "name": "Philosophical Fiction"
+  },
+  {
+    "id": 94,
+    "name": "Disaster Preparedness"
+  },
+  {
+    "id": 95,
+    "name": "Urban Gardening"
+  },
+  {
+    "id": 96,
+    "name": "Marine Biology"
+  },
+  {
+    "id": 97,
+    "name": "Human-Centered Design"
+  },
+  {
+    "id": 98,
+    "name": "Psychological Thriller"
+  },
+  {
+    "id": 99,
+    "name": "Quantum Physics"
+  },
+  {
+    "id": 100,
+    "name": "Cognitive Neuroscience"
+  }
+]

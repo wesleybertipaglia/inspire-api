@@ -1,0 +1,888 @@
+[
+  {
+    "id": 1,
+    "name": "Albert Einstein",
+    "birth": "1879-03-14",
+    "death": "1955-04-18",
+    "country": "Germany",
+    "field": "Physics"
+  },
+  {
+    "id": 2,
+    "name": "Ada Lovelace",
+    "birth": "1815-12-10",
+    "death": "1852-11-27",
+    "country": "United Kingdom",
+    "field": "Computing"
+  },
+  {
+    "id": 3,
+    "name": "Alan Turing",
+    "birth": "1912-06-23",
+    "death": "1954-06-07",
+    "country": "United Kingdom",
+    "field": "Computer Science"
+  },
+  {
+    "id": 4,
+    "name": "Marie Curie",
+    "birth": "1867-11-07",
+    "death": "1934-07-04",
+    "country": "Poland",
+    "field": "Physics and Chemistry"
+  },
+  {
+    "id": 5,
+    "name": "Isaac Newton",
+    "birth": "1643-01-04",
+    "death": "1727-03-31",
+    "country": "United Kingdom",
+    "field": "Mathematics and Physics"
+  },
+  {
+    "id": 6,
+    "name": "Grace Hopper",
+    "birth": "1906-12-09",
+    "death": "1992-01-01",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 7,
+    "name": "Stephen Hawking",
+    "birth": "1942-01-08",
+    "death": "2018-03-14",
+    "country": "United Kingdom",
+    "field": "Theoretical Physics"
+  },
+  {
+    "id": 8,
+    "name": "Tim Berners-Lee",
+    "birth": "1955-06-08",
+    "country": "United Kingdom",
+    "field": "Computer Science"
+  },
+  {
+    "id": 9,
+    "name": "John von Neumann",
+    "birth": "1903-12-28",
+    "death": "1957-02-08",
+    "country": "Hungary",
+    "field": "Mathematics and Computer Science"
+  },
+  {
+    "id": 10,
+    "name": "Elon Musk",
+    "birth": "1971-06-28",
+    "country": "United States",
+    "field": "Technology and Entrepreneurship"
+  },
+  {
+    "id": 11,
+    "name": "Richard Feynman",
+    "birth": "1918-05-11",
+    "death": "1988-02-15",
+    "country": "United States",
+    "field": "Physics"
+  },
+  {
+    "id": 12,
+    "name": "Ada Yonath",
+    "birth": "1939-06-22",
+    "country": "Israel",
+    "field": "Chemistry"
+  },
+  {
+    "id": 13,
+    "name": "Donald Knuth",
+    "birth": "1938-01-10",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 14,
+    "name": "Carl Sagan",
+    "birth": "1934-11-09",
+    "death": "1996-12-20",
+    "country": "United States",
+    "field": "Astronomy and Astrophysics"
+  },
+  {
+    "id": 15,
+    "name": "Shafi Goldwasser",
+    "birth": "1958-10-26",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 16,
+    "name": "George Boole",
+    "birth": "1815-11-02",
+    "death": "1864-12-08",
+    "country": "United Kingdom",
+    "field": "Mathematics and Logic"
+  },
+  {
+    "id": 17,
+    "name": "Vinton Cerf",
+    "birth": "1943-06-23",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 18,
+    "name": "Rosalind Franklin",
+    "birth": "1920-07-25",
+    "death": "1958-04-16",
+    "country": "United Kingdom",
+    "field": "Chemistry and X-ray Crystallography"
+  },
+  {
+    "id": 19,
+    "name": "John McCarthy",
+    "birth": "1927-09-04",
+    "death": "2011-10-24",
+    "country": "United States",
+    "field": "Artificial Intelligence"
+  },
+  {
+    "id": 20,
+    "name": "Margaret Hamilton",
+    "birth": "1936-08-17",
+    "country": "United States",
+    "field": "Software Engineering"
+  },
+  {
+    "id": 21,
+    "name": "Jane Goodall",
+    "birth": "1934-04-03",
+    "country": "United Kingdom",
+    "field": "Primatology and Ethology"
+  },
+  {
+    "id": 22,
+    "name": "Claude Shannon",
+    "birth": "1916-04-30",
+    "death": "2001-02-24",
+    "country": "United States",
+    "field": "Mathematical Theory of Communication"
+  },
+  {
+    "id": 23,
+    "name": "Barbara Liskov",
+    "birth": "1939-11-07",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 24,
+    "name": "Edsger Dijkstra",
+    "birth": "1930-05-11",
+    "death": "2002-08-06",
+    "country": "Netherlands",
+    "field": "Computer Science"
+  },
+  {
+    "id": 25,
+    "name": "Katherine Johnson",
+    "birth": "1918-08-26",
+    "death": "2020-02-24",
+    "country": "United States",
+    "field": "Mathematics and Space Science"
+  },
+  {
+    "id": 26,
+    "name": "Linus Torvalds",
+    "birth": "1969-12-28",
+    "country": "Finland",
+    "field": "Computer Science (Linux Kernel)"
+  },
+  {
+    "id": 27,
+    "name": "Erwin Schrödinger",
+    "birth": "1887-08-12",
+    "death": "1961-01-04",
+    "country": "Austria",
+    "field": "Quantum Mechanics"
+  },
+  {
+    "id": 28,
+    "name": "Françoise Barré-Sinoussi",
+    "birth": "1947-07-30",
+    "country": "France",
+    "field": "Virology"
+  },
+  {
+    "id": 29,
+    "name": "Gödel, Kurt",
+    "birth": "1906-04-28",
+    "death": "1978-01-14",
+    "country": "Austria",
+    "field": "Mathematical Logic"
+  },
+  {
+    "id": 30,
+    "name": "Satya Nadella",
+    "birth": "1967-08-19",
+    "country": "India",
+    "field": "Technology (Microsoft)"
+  },
+  {
+    "id": 31,
+    "name": "Cynthia Breazeal",
+    "birth": "1967-11-15",
+    "country": "United States",
+    "field": "Robotics"
+  },
+  {
+    "id": 32,
+    "name": "Fibonacci",
+    "birth": "c. 1170 - c. 1250",
+    "country": "Italy",
+    "field": "Mathematics"
+  },
+  {
+    "id": 33,
+    "name": "John Bardeen",
+    "birth": "1908-05-23",
+    "death": "1991-01-30",
+    "country": "United States",
+    "field": "Physics (Transistor)"
+  },
+  {
+    "id": 34,
+    "name": "Barry C. Barish",
+    "birth": "1936-01-27",
+    "country": "United States",
+    "field": "Physics (LIGO)"
+  },
+  {
+    "id": 35,
+    "name": "Don Norman",
+    "birth": "1935-12-25",
+    "country": "United States",
+    "field": "Cognitive Science and Design"
+  },
+  {
+    "id": 36,
+    "name": "Andrew Ng",
+    "birth": "1976-04-18",
+    "country": "United Kingdom",
+    "field": "Artificial Intelligence"
+  },
+  {
+    "id": 37,
+    "name": "Gerty Cori",
+    "birth": "1896-08-15",
+    "death": "1957-10-26",
+    "country": "United States",
+    "field": "Biochemistry"
+  },
+  {
+    "id": 38,
+    "name": "George Church",
+    "birth": "1954-08-28",
+    "country": "United States",
+    "field": "Genomics"
+  },
+  {
+    "id": 39,
+    "name": "Mary Cartwright",
+    "birth": "1900-12-17",
+    "death": "1998-04-03",
+    "country": "United Kingdom",
+    "field": "Mathematics"
+  },
+  {
+    "id": 40,
+    "name": "Alan Kay",
+    "birth": "1940-05-17",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 41,
+    "name": "Mae Jemison",
+    "birth": "1956-10-17",
+    "country": "United States",
+    "field": "Astronaut and Physician"
+  },
+  {
+    "id": 42,
+    "name": "Donald Ervin Knuth",
+    "birth": "1938-01-10",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 43,
+    "name": "Frances E. Allen",
+    "birth": "1932-08-04",
+    "death": "2020-08-04",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 44,
+    "name": "Jennifer Doudna",
+    "birth": "1964-02-19",
+    "country": "United States",
+    "field": "Biochemistry and CRISPR"
+  },
+  {
+    "id": 45,
+    "name": "John McCarthy",
+    "birth": "1927-09-04",
+    "death": "2011-10-24",
+    "country": "United States",
+    "field": "Artificial Intelligence"
+  },
+  {
+    "id": 46,
+    "name": "John von Neumann",
+    "birth": "1903-12-28",
+    "death": "1957-02-08",
+    "country": "Hungary",
+    "field": "Mathematics and Computer Science"
+  },
+  {
+    "id": 47,
+    "name": "Rosalind Picard",
+    "birth": "1962-05-17",
+    "country": "United States",
+    "field": "Affective Computing"
+  },
+  {
+    "id": 48,
+    "name": "Barbara McClintock",
+    "birth": "1902-06-16",
+    "death": "1992-09-02",
+    "country": "United States",
+    "field": "Genetics"
+  },
+  {
+    "id": 49,
+    "name": "Dennis Ritchie",
+    "birth": "1941-09-09",
+    "death": "2011-10-12",
+    "country": "United States",
+    "field": "Computer Science (C programming language)"
+  },
+  {
+    "id": 50,
+    "name": "Edith Clarke",
+    "birth": "1883-02-10",
+    "death": "1959-10-29",
+    "country": "United States",
+    "field": "Electrical Engineering"
+  },
+  {
+    "id": 51,
+    "name": "Margaret Hamilton",
+    "birth": "1936-08-17",
+    "country": "United States",
+    "field": "Software Engineering"
+  },
+  {
+    "id": 52,
+    "name": "Pierre-Simon Laplace",
+    "birth": "1749-03-23",
+    "death": "1827-03-05",
+    "country": "France",
+    "field": "Mathematics and Astronomy"
+  },
+  {
+    "id": 53,
+    "name": "Barbara Liskov",
+    "birth": "1939-11-07",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 54,
+    "name": "Vannevar Bush",
+    "birth": "1890-03-11",
+    "death": "1974-06-28",
+    "country": "United States",
+    "field": "Engineering and Computer Science"
+  },
+  {
+    "id": 55,
+    "name": "Mary Cartwright",
+    "birth": "1900-12-17",
+    "death": "1998-04-03",
+    "country": "United Kingdom",
+    "field": "Mathematics"
+  },
+  {
+    "id": 56,
+    "name": "Katie Bouman",
+    "birth": "1989-05-09",
+    "country": "United States",
+    "field": "Computer Science (Imaging of a Black Hole)"
+  },
+  {
+    "id": 57,
+    "name": "William Shockley",
+    "birth": "1910-02-13",
+    "death": "1989-08-12",
+    "country": "United States",
+    "field": "Physics and Semiconductor Theory"
+  },
+  {
+    "id": 58,
+    "name": "Frances Arnold",
+    "birth": "1956-07-25",
+    "country": "United States",
+    "field": "Chemical Engineering"
+  },
+  {
+    "id": 59,
+    "name": "Herbert A. Simon",
+    "birth": "1916-06-15",
+    "death": "2001-02-09",
+    "country": "United States",
+    "field": "Artificial Intelligence"
+  },
+  {
+    "id": 60,
+    "name": "Vera Rubin",
+    "birth": "1928-07-23",
+    "death": "2016-12-25",
+    "country": "United States",
+    "field": "Astronomy"
+  },
+  {
+    "id": 61,
+    "name": "Claude Elwood Shannon",
+    "birth": "1916-04-30",
+    "death": "2001-02-24",
+    "country": "United States",
+    "field": "Mathematical Theory of Communication"
+  },
+  {
+    "id": 62,
+    "name": "Michael Faraday",
+    "birth": "1791-09-22",
+    "death": "1867-08-25",
+    "country": "United Kingdom",
+    "field": "Physics and Chemistry"
+  },
+  {
+    "id": 63,
+    "name": "Ken Thompson",
+    "birth": "1943-02-04",
+    "country": "United States",
+    "field": "Computer Science (Unix)"
+  },
+  {
+    "id": 64,
+    "name": "Barbara Jacak",
+    "birth": "1952-09-29",
+    "country": "United States",
+    "field": "Nuclear Physics"
+  },
+  {
+    "id": 65,
+    "name": "Yuri Milner",
+    "birth": "1961-11-11",
+    "country": "Russia",
+    "field": "Investor in Technology"
+  },
+  {
+    "id": 66,
+    "name": "Frances H. Arnold",
+    "birth": "1956-07-25",
+    "country": "United States",
+    "field": "Chemical Engineering"
+  },
+  {
+    "id": 67,
+    "name": "John McCarthy",
+    "birth": "1927-09-04",
+    "death": "2011-10-24",
+    "country": "United States",
+    "field": "Artificial Intelligence"
+  },
+  {
+    "id": 68,
+    "name": "Michael Dell",
+    "birth": "1965-02-23",
+    "country": "United States",
+    "field": "Technology (Dell)"
+  },
+  {
+    "id": 69,
+    "name": "Richard Stallman",
+    "birth": "1953-03-16",
+    "country": "United States",
+    "field": "Free Software Movement"
+  },
+  {
+    "id": 70,
+    "name": "Adele Goldberg",
+    "birth": "1945-07-07",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 71,
+    "name": "Claude Lévi-Strauss",
+    "birth": "1908-11-28",
+    "death": "2009-10-30",
+    "country": "France",
+    "field": "Anthropology"
+  },
+  {
+    "id": 72,
+    "name": "Hedy Lamarr",
+    "birth": "1914-11-09",
+    "death": "2000-01-19",
+    "country": "Austria",
+    "field": "Inventor and Actress"
+  },
+  {
+    "id": 73,
+    "name": "Linus Pauling",
+    "birth": "1901-02-28",
+    "death": "1994-08-19",
+    "country": "United States",
+    "field": "Chemistry and Peace Activism"
+  },
+  {
+    "id": 74,
+    "name": "Daphne Koller",
+    "birth": "1968-08-27",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 75,
+    "name": "Paul Dirac",
+    "birth": "1902-08-08",
+    "death": "1984-10-20",
+    "country": "United Kingdom",
+    "field": "Theoretical Physics"
+  },
+  {
+    "id": 76,
+    "name": "David Hilbert",
+    "birth": "1862-01-23",
+    "death": "1943-02-14",
+    "country": "Germany",
+    "field": "Mathematics"
+  },
+  {
+    "id": 77,
+    "name": "Susan Kare",
+    "birth": "1954-02-05",
+    "country": "United States",
+    "field": "Graphic Designer (Apple Macintosh)"
+  },
+  {
+    "id": 78,
+    "name": "Andrew Wiles",
+    "birth": "1953-04-11",
+    "country": "United Kingdom",
+    "field": "Mathematics (Fermat's Last Theorem)"
+  },
+  {
+    "id": 79,
+    "name": "Ruzena Bajcsy",
+    "birth": "1933-07-26",
+    "country": "Slovakia",
+    "field": "Computer Science and Robotics"
+  },
+  {
+    "id": 80,
+    "name": "Bjarne Stroustrup",
+    "birth": "1950-12-30",
+    "country": "Denmark",
+    "field": "Computer Science (C++ Programming Language)"
+  },
+  {
+    "id": 81,
+    "name": "Fei-Fei Li",
+    "birth": "1976-04-27",
+    "country": "China",
+    "field": "Computer Vision and AI"
+  },
+  {
+    "id": 82,
+    "name": "John von Neumann",
+    "birth": "1903-12-28",
+    "death": "1957-02-08",
+    "country": "Hungary",
+    "field": "Mathematics and Computer Science"
+  },
+  {
+    "id": 83,
+    "name": "Ed Catmull",
+    "birth": "1945-03-31",
+    "country": "United States",
+    "field": "Computer Graphics (Pixar)"
+  },
+  {
+    "id": 84,
+    "name": "Ingrid Daubechies",
+    "birth": "1954-08-17",
+    "country": "Belgium",
+    "field": "Mathematics and Signal Processing"
+  },
+  {
+    "id": 85,
+    "name": "Dame Wendy Hall",
+    "birth": "1952-05-26",
+    "country": "United Kingdom",
+    "field": "Computer Science"
+  },
+  {
+    "id": 86,
+    "name": "George Hotz",
+    "birth": "1989-10-02",
+    "country": "United States",
+    "field": "Computer Hacking (Geohot)"
+  },
+  {
+    "id": 87,
+    "name": "Jean-Pierre Herve",
+    "birth": "1936-07-24",
+    "country": "France",
+    "field": "Mathematics and Cybernetics"
+  },
+  {
+    "id": 88,
+    "name": "Indra Nooyi",
+    "birth": "1955-10-28",
+    "country": "India",
+    "field": "Business and Technology"
+  },
+  {
+    "id": 89,
+    "name": "Peter Shor",
+    "birth": "1959-08-14",
+    "country": "United States",
+    "field": "Mathematics and Quantum Computing"
+  },
+  {
+    "id": 90,
+    "name": "Guido van Rossum",
+    "birth": "1956-01-31",
+    "country": "Netherlands",
+    "field": "Computer Programming (Python)"
+  },
+  {
+    "id": 91,
+    "name": "Emmy Noether",
+    "birth": "1882-03-23",
+    "death": "1935-04-14",
+    "country": "Germany",
+    "field": "Mathematics"
+  },
+  {
+    "id": 92,
+    "name": "Marc Andreessen",
+    "birth": "1971-07-09",
+    "country": "United States",
+    "field": "Software Entrepreneurship"
+  },
+  {
+    "id": 93,
+    "name": "Donna Strickland",
+    "birth": "1959-05-27",
+    "country": "Canada",
+    "field": "Physics (Laser Physics)"
+  },
+  {
+    "id": 94,
+    "name": "David Attenborough",
+    "birth": "1926-05-08",
+    "country": "United Kingdom",
+    "field": "Natural History and Broadcasting"
+  },
+  {
+    "id": 95,
+    "name": "John Mauchly",
+    "birth": "1907-08-30",
+    "death": "1980-01-08",
+    "country": "United States",
+    "field": "Computer Engineering (ENIAC)"
+  },
+  {
+    "id": 96,
+    "name": "Jennifer Tour Chayes",
+    "birth": "1956-06-17",
+    "country": "United States",
+    "field": "Mathematics and Computer Science"
+  },
+  {
+    "id": 97,
+    "name": "Ginni Rometty",
+    "birth": "1957-07-29",
+    "country": "United States",
+    "field": "Business and Technology (IBM)"
+  },
+  {
+    "id": 98,
+    "name": "Percy Lavon Julian",
+    "birth": "1899-04-11",
+    "death": "1975-04-19",
+    "country": "United States",
+    "field": "Chemistry and Medicinal Drugs"
+  },
+  {
+    "id": 99,
+    "name": "Raj Reddy",
+    "birth": "1937-06-13",
+    "country": "India",
+    "field": "Artificial Intelligence"
+  },
+  {
+    "id": 100,
+    "name": "Shafi Goldwasser",
+    "birth": "1958-10-26",
+    "country": "United States",
+    "field": "Computer Science"
+  },
+  {
+    "id": 101,
+    "name": "Steve Jobs",
+    "birth": "1955-02-24",
+    "death": "2011-10-05",
+    "country": "United States",
+    "role": "Co-founder (Apple)"
+  },
+  {
+    "id": 102,
+    "name": "Sundar Pichai",
+    "birth": "1972-06-10",
+    "country": "India",
+    "role": "CEO (Alphabet and Google)"
+  },
+  {
+    "id": 103,
+    "name": "Bill Gates",
+    "birth": "1955-10-28",
+    "country": "United States",
+    "role": "Co-founder (Microsoft)"
+  },
+  {
+    "id": 104,
+    "name": "Jeff Bezos",
+    "birth": "1964-01-12",
+    "country": "United States",
+    "role": "Founder (Amazon)"
+  },
+  {
+    "id": 105,
+    "name": "Mark Zuckerberg",
+    "birth": "1984-05-14",
+    "country": "United States",
+    "role": "Co-founder and CEO (Facebook)"
+  },
+  {
+    "id": 106,
+    "name": "Elon Musk",
+    "birth": "1971-06-28",
+    "country": "United States",
+    "role": "CEO (SpaceX and Tesla)"
+  },
+  {
+    "id": 107,
+    "name": "Satya Nadella",
+    "birth": "1967-08-19",
+    "country": "India",
+    "role": "CEO (Microsoft)"
+  },
+  {
+    "id": 108,
+    "name": "Sheryl Sandberg",
+    "birth": "1969-08-28",
+    "country": "United States",
+    "role": "COO (Facebook)"
+  },
+  {
+    "id": 109,
+    "name": "Jack Ma",
+    "birth": "1964-09-10",
+    "country": "China",
+    "role": "Co-founder (Alibaba)"
+  },
+  {
+    "id": 110,
+    "name": "Tim Cook",
+    "birth": "1960-11-01",
+    "country": "United States",
+    "role": "CEO (Apple)"
+  },
+  {
+    "id": 111,
+    "name": "Larry Page",
+    "birth": "1973-03-26",
+    "country": "United States",
+    "role": "Co-founder (Alphabet)"
+  },
+  {
+    "id": 112,
+    "name": "Sergey Brin",
+    "birth": "1973-08-21",
+    "country": "United States",
+    "role": "Co-founder (Alphabet)"
+  },
+  {
+    "id": 113,
+    "name": "Reed Hastings",
+    "birth": "1960-10-08",
+    "country": "United States",
+    "role": "Co-founder and Co-CEO (Netflix)"
+  },
+  {
+    "id": 114,
+    "name": "Marissa Mayer",
+    "birth": "1975-05-30",
+    "country": "United States",
+    "role": "Former CEO (Yahoo) and Co-founder (Lumi Labs)"
+  },
+  {
+    "id": 115,
+    "name": "Dara Khosrowshahi",
+    "birth": "1969-05-28",
+    "country": "Iran",
+    "role": "CEO (Uber)"
+  },
+  {
+    "id": 116,
+    "name": "Ginni Rometty",
+    "birth": "1957-07-29",
+    "country": "United States",
+    "role": "Former CEO (IBM)"
+  },
+  {
+    "id": 117,
+    "name": "Peter Thiel",
+    "birth": "1967-10-11",
+    "country": "United States",
+    "role": "Co-founder (PayPal)"
+  },
+  {
+    "id": 118,
+    "name": "Stewart Butterfield",
+    "birth": "1973-10-01",
+    "country": "Canada",
+    "role": "Co-founder and CEO (Slack and Flickr)"
+  },
+  {
+    "id": 119,
+    "name": "Susan Wojcicki",
+    "birth": "1968-07-05",
+    "country": "United States",
+    "role": "CEO (YouTube)"
+  },
+  {
+    "id": 120,
+    "name": "Daniel Ek",
+    "birth": "1983-02-21",
+    "country": "Sweden",
+    "role": "CEO (Spotify)"
+  }
+]
