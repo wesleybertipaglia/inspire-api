@@ -13,7 +13,7 @@ class Header extends HTMLElement {
         content.appendChild(this.ListLinks())
 
         const componentRoot = document.createElement('header')
-        componentRoot.classList.add('bg-light', 'shadow-sm')
+        componentRoot.classList.add('bg-light', 'shadow-sm', 'border-bottom')
         componentRoot.appendChild(content)
 
         return componentRoot
@@ -29,7 +29,7 @@ class Header extends HTMLElement {
         logoText.textContent = 'Home'
 
         const home = document.createElement('a')
-        home.classList.add('d-flex', 'gap-2', 'align-items-center')
+        home.classList.add('d-flex', 'gap-2', 'align-items-center', 'nav-link')
         home.href = DataLinks.home.url
         home.append(logo)
         home.append(logoText)
@@ -51,6 +51,7 @@ class Header extends HTMLElement {
 
     NewLink(linkItem) {
         let link = document.createElement('a')
+        link.classList.add('nav-link')
         link.href = linkItem.url
         link.textContent = linkItem.name
 

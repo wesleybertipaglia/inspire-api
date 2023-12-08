@@ -13,6 +13,7 @@ class Footer extends HTMLElement {
         content.appendChild(textContent)
 
         const componentRoot = document.createElement('footer')
+        componentRoot.classList.add('border-top')
         componentRoot.appendChild(content)
 
         return componentRoot
