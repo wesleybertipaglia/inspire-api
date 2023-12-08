@@ -34,23 +34,21 @@ class BaseRoute {
             }
         });
 
-        this.router.get('/:id', (req, res) => {
-            const id = parseInt(req.params.id);
-            const result = this.data.find((result) => result.id === id);
+        this.router.get('/random', (req, res) => {
+            const randomId = Math.floor(Math.random() * this.data.length);
+            const result = this.data.find((result) => result.id === randomId);
 
             if (result) {
                 res.statusCode = 200;
                 res.setHeader('Content-Type', 'application/json');
                 res.json(result);
             } else {
-                res.status(404).json({ error: 'result not found' });
+                res.status(404).json({ error: 'Data not found' });
             }
         });
 
-        this.router.get('/random', (req, res) => {
-            const min = 1;
-            const max = this.data.length;
-            const id = Math.floor(Math.random() * (max - min)) + min;
+        this.router.get('/:id', (req, res) => {
+            const id = parseInt(req.params.id);
             const result = this.data.find((result) => result.id === id);
 
             if (result) {
