@@ -1,5 +1,6 @@
 const express = require('express');
 const server = express();
+var path = require('path');
 const port = process.env.PORT || 3001;
 
 server.use(express.json());
@@ -11,15 +12,14 @@ server.use((req, res, next) => {
 });
 
 // Routes
-const indexRoute = require('./src/app');
 const quotesRoutes = require('./src/routes/QuoteRoutes');
 const authorsRoutes = require('./src/routes/AuthorRoutes');
 const categoriesRoutes = require('./src/routes/CategoryRoutes');
 
-server.use('/', indexRoute);
 server.use('/quotes', quotesRoutes);
 server.use('/authors', authorsRoutes);
 server.use('/categories', categoriesRoutes);
+server.use(express.static(path.join(__dirname, 'public')));
 
 server.listen(port, () => {
     console.log(`Server is running in ${port} 🎉`);
